@@ -133,17 +133,54 @@ body {
     font-weight: 600;
 }
 
+.sidebar{
+    padding-left: 25px;
+}
+
+.dashboard{
+    display: flex;
+    gap: 12px;
+    font-size: 29px;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.dashboard > img{
+    width: 27px;
+    height: 27px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+
+.navigation > div {
+    padding-bottom: 10px;
+}
+
+.nav-col{
+    /* display: grid;
+    grid-auto-flow: column; */
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+}
+
 .navigation{
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 20px;
     padding-bottom: 23px;
     
 }
 
-.navigation > div {
-    padding-bottom: 7px;
+.branding > div {
+    padding-bottom: 10px;
 }
 
-.sidebar{
-    padding-left: 25px;
+.brand-col{
+    /* display: grid;
+    grid-auto-flow: column; */
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
 }
