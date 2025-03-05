@@ -67,12 +67,12 @@ body {
     margin-left: 25px;
 }
 
-.hi{
+.hi {
     font-weight: 550;
     font-size: 16px;
 }
 
-.name-id{
+.name-id {
     font-weight: 800;
     font-size: 25px;
 }
@@ -129,14 +129,14 @@ body {
     /* justify-content: space-around; */
     width: 500px;
     /* margin-right: 40px; */
-    
+
 }
 
 .main-content {
     grid-area: main-content;
     background-color: #c8c4c43a;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr; */
     grid-template-areas:
         "p a"
         "p t";
@@ -174,10 +174,9 @@ body {
     font-size: 18px;
     padding: 19px;
     height: 12em;
-
 }
 
-.card-icons{
+.card-icons {
     display: grid;
     grid-auto-flow: column;
     justify-content: end;
@@ -196,6 +195,27 @@ body {
     grid-row: 1;
     /* background-color: lightcoral; */
 }
+
+.ann {
+    padding: 10px 20px;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    background-color: #333;
+    margin: 5px 10px;
+}
+
+h4{
+font-size:16px;
+padding-bottom: 4px;
+}
+
+h4 + div{
+    font-size: 16px;
+}
+
 
 .trending {
     grid-column: 2;
