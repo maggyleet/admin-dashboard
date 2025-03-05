@@ -164,6 +164,7 @@ body {
     grid-template-columns: repeat(2, minmax(14em, 1fr));
     grid-template-rows: auto;
     gap: 20px;
+    /* padding: 20px; */
 }
 
 .card {
@@ -176,9 +177,18 @@ body {
 
 }
 
+.card-icons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 30px;
+    margin-top: 50px;
+}
+
 
 .title {
     font-weight: 700;
+    padding-bottom: 5px;
 }
 
 .announcements {
