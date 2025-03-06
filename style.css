@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Ensures width calculations are correct */
 }
 
 html,
@@ -23,8 +22,6 @@ body {
     grid-template-areas:
         "sidebar header"
         "sidebar main-content";
-    /* gap: 10px; */
-
 }
 
 .sidebar {
@@ -49,7 +46,6 @@ body {
     grid-auto-flow: column;
     width: 750px;
     align-items: center;
-    /* gap: 10px; */
 }
 
 .line-1b {
@@ -89,7 +85,6 @@ body {
     width: 56px;
 }
 
-
 .search-bar {
     background-color: #c8c4c43a;
     height: 35px;
@@ -126,10 +121,7 @@ body {
 .buttons {
     display: grid;
     grid-auto-flow: column;
-    /* justify-content: space-around; */
     width: 500px;
-    /* margin-right: 40px; */
-
 }
 
 .main-content {
@@ -186,7 +178,6 @@ h3{
     margin-top: 50px;
 }
 
-
 .title {
     font-weight: 700;
     padding-bottom: 5px;
@@ -195,8 +186,6 @@ h3{
 .announcements {
     grid-column: 2;
     grid-row: 1;
-    /* background-color: lightcoral; */
-    /* padding: px; */
     padding: 0 20px;
 
 }
@@ -220,7 +209,6 @@ padding-bottom: 4px;
 h4 + div{
     font-size: 16px;
 }
-
 
 .trending {
     grid-column: 2;
